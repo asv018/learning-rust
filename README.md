@@ -13,13 +13,24 @@ cpdespace for learning rust
 <li>Data types in Rust: 
 <ul>
 <li> Integer: characterised by number of bits, can be signed and unsigned. By default int in rust are signed 32bit type
-Exaple let x:u8 =100; // u8 is for undigned 8 bit number if we assign a numbe greater than 255 which is max of what u8 can store, it gives error. Many programming languages do not give such errors.</li>
+Example:
+ let x:u8 =100;
+  // u8 is for undigned 8 bit number if we assign a numbe greater than 255 which is max of what u8 can store, it gives error. Many programming languages do not give such errors.</li>
 <li> Floating Point: Represt numbers using IEEE 754 standard. Rust has two floating types `f32` and `f64`</li>
-<li></li>
-<li></li>
+<li>Numereic type: </li>
+<li>Boolean type: </li>
+<li>Compound Type: 
+Tuple type:
+Array type:
+</li>
 </ul>
 </li>
-<li></li>
+
+<li>for casting datatypes `as` keyword is used 
+e.g. 3 as f64 gives 3.0 int to floating
+but in case of float to int 3.9 as i32 gives 3
+<br/>Some strange results:😕 casting 300 as u8 gives 44 as u8 can store upto 256 the remainde is casted 
+Casting -300 as u32 gives 4294966996(not exact) this is (upper limit of u32 - 300) </li>
 <li></li>
 <li></li>
 <li></li>
